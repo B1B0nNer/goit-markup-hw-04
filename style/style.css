@@ -69,9 +69,13 @@ header{
 }
 
 .social-media li{
-    background-color: #434455;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--iris);
     width: 40px;
     height: 40px;
+    border-radius: 50%;
 }
 
 .social-media li:not(:last-child){
@@ -79,8 +83,9 @@ header{
 }
 
 .icon-house{
-    width: 40px;
-    height: 40px;
+    display: block;
+    width: 16px;
+    height: 16px;
 }
 
 .title{
