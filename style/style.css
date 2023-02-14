@@ -417,7 +417,7 @@ ul{
     line-height: 111%;
     letter-spacing: 0.02em;
     color: var(--navyblue);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .icon-house{
@@ -618,7 +618,7 @@ p.end_text{
     width: 360px;
 }
 
-.products_item:hover{
+.products_item:hover, .products_item:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
